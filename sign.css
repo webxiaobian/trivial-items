@@ -1,0 +1,135 @@
+html{font-size: 100px}
+body{
+	display:flex;
+	flex-direction: column;
+}
+.top{
+	height:0.2rem;
+}
+header{
+	display:flex;
+	justify-content: space-between;
+	height: 0.21rem;
+}
+header span {
+	width: 0.12rem;
+	height: 0.21rem;
+}
+header span:first-child{
+	background: url(images/jian.png) no-repeat center;
+	background-size: 0.12rem 0.21rem;
+	margin-left: 0.12rem;
+}
+header h1{
+font-size: 0.16rem;
+color: #8c8a8b;
+align-self: center;
+font-style: normal;
+}
+img{
+	margin:0.33rem 0 0.24rem; 
+	width: 0.75rem;
+	height: 0.75rem;
+	align-self: center;
+}
+.form{
+	height:0.815rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 2.9rem;
+	height: 0.82rem;
+	align-self: center;
+	border:1px solid #a8a8a8;
+	border-radius: 0.025rem;
+}
+.form input{
+	width: 2.7rem;
+	height: 0.4rem;
+	border: none;
+	outline: none;
+	color: #ccc;
+}
+.form div{
+	height:1px;
+	width: 2.7rem;
+	background:#ccc;
+}
+.form input:first-child{
+	background: url(images/user.png) no-repeat left center;
+	background-size: 0.19rem 0.18rem;
+	text-indent: 0.24rem;
+}
+.form input:nth-child(3){
+	background: url(images/password.png) no-repeat left center;
+	background-size: 0.19rem 0.18rem;
+	text-indent: 0.24rem;
+}
+.fuwu{
+margin: 0.15rem 0 0.24rem;
+align-self: center;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 2.70rem;
+}
+.fuwu a{
+	font-size: 0.12rem;
+	color: #a3a3a3;
+}
+
+.fuwu+input{
+	width: 2.9rem;
+	align-self: center;
+	height: 0.4rem;
+	background: #f10102;
+	color: white;
+	font-size:0.16rem;
+	border:0;
+	border-radius: 0.05rem;
+}
+/**/
+.links{
+	margin-top: 0.7rem;
+	display: flex;
+	width: 2.9rem;
+	align-self: center;
+	justify-content: space-between;
+	align-items: center;
+}
+.links div{
+	height: 1px;
+	width: 0.81rem;
+	background: #ccc;
+}
+.links p{
+margin: 0 0.19rem;
+color: #ccc;
+font-size: 0.15rem;
+}
+.pay{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 0.35rem;
+	width: 2.9rem;
+	align-self: center;
+}
+.pay a{
+	font-size: 0.12rem;
+	color: #ccc;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.pay div{
+	display: flex;
+	flex-direction:column;
+}
+.pay a i{
+	display: block;
+	border: 1px solid #ccc;
+	width: 0.56rem;
+	height: 0.56rem;
+	border-radius: 50%;
+	margin-bottom: 0.13rem;
+}
